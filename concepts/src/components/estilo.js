@@ -1,6 +1,11 @@
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
+    primeiro:{
+        fontSize: 36,
+        alignItems: 'center',
+    },
+    
     txtG:{
         fontSize: 48,
         alignItems: 'center',

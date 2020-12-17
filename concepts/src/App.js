@@ -6,7 +6,7 @@ import Primeiro from './components/Text';
 import Estilo from './components/estilo'
 
 export default function(){
-   return <View style={Estilo.txtG}>
+   return <View style={style.App}>
       <CompPadrao  style={Estilo.txtG}/>
       <Primeiro style={Estilo.txtM}/>
       <Comp1 style={Estilo.txtP}/>
@@ -14,3 +14,10 @@ export default function(){
    </View>
 }
 
+const style = StyleSheet.create({
+   App:{
+      flexGrow: 1, 
+      justifyContent: 'center',
+      alignItems: 'center',
+   }
+});
