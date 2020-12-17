@@ -5,7 +5,7 @@ export default StyleSheet.create({
         fontSize: 36,
         alignItems: 'center',
     },
-    
+
     txtG:{
         fontSize: 48,
         alignItems: 'center',
