@@ -7,5 +7,5 @@ export default (props) => {
 
     return(
         <Text style={Estilo.primeiro}>  valor {props.max} maior que valor {props.min} </Text>
-    )
+    );
 }
