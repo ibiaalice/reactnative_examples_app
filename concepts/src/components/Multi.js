@@ -1,17 +1,18 @@
 import React from 'react';
 import {Text} from 'react-native';
+import Estilo from './estilo';
 
 function Comp(){
-    return <Text>Componente #Oficial </Text>
+    return <Text style={Estilo.txtG}>Componente #Oficial </Text>
 }
 
 
  function Comp1(){
-    return <Text>Componente 01</Text>
+    return <Text style={Estilo.txtM}> Componente 01</Text>
 }
 
  function Comp2(){
-    return <Text>Componente 02</Text>
+    return <Text style={Estilo.txtP}>Componente 02</Text>
 }
 
 export {Comp1, Comp2};

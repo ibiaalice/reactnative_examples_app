@@ -1,9 +1,19 @@
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
-    grande:{
-        fontSize:24,
-        flex: 1,
-        backgroundColor: '#A00'
+    txtG:{
+        fontSize: 48,
+        alignItems: 'center',
+    },
+
+    txtM:{
+        fontSize: 20,
+        alignItems: 'center',
+    },
+
+    txtP:{
+        fontSize:10,
+        alignItems: 'center'
     }
+
 });
