@@ -5,8 +5,8 @@ import Estilo from './estilo';
 
 export default props => {
     const delta = props.y - props.x + 1;
-    const aleatorio = parseInt(Math.random() * delta);
-
+    let aleatorio = parseInt(Math.random() * delta);
+    
     return(
         <Text style={Estilo.primeiro}>
             O Valor aleatório é {aleatorio}
