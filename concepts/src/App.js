@@ -5,19 +5,11 @@ import CompPadrao, {Comp1, Comp2} from './components/Multi'
 import Primeiro from './components/Text';
 import Aleatorio from './components/Aleatorio';
 import Titulo from './components/Titulo';
+import Botao from './components/botao'
 
 export default function(){
    return <View style={style.App}>
-      {/* <CompPadrao />
-      <Primeiro />
-      <Comp1 />
-      <Comp2 />
-      <MinMax min='3' max='20'/> */}
-
-      {/* <Aleatorio x={1} y={100} /> */}
-
-      <Titulo principal='Titulo' secundario='SubTitulo' />
-
+      <Botao />
 
    </View>
 }
