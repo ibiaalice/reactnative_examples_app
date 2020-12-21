@@ -6,10 +6,11 @@ import Primeiro from './components/Text';
 import Aleatorio from './components/Aleatorio';
 import Titulo from './components/Titulo';
 import Botao from './components/botao'
+import Contador from './components/Contador';
 
 export default function(){
    return <View style={style.App}>
-      <Botao />
+      <Contador />
 
    </View>
 }
